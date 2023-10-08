@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissorGamePage</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="bg-game-container">
+        <h1 class="score-heading">
+            <span class="your-score" id="yourScore">
+                0
+            </span>
+            -
+            <span class="comp-score" id="compScore">
+                0
+            </span>
+        </h1>
+        <div class="flex">
+            <div class="you-box">
+                <h2>You</h2>
+                <div class="your-img">
+                    <img src="assets/bg.png" id="your-img">
+                </div>
+                <div class="logo-box">
+                    <img src="assets/rock-logo.png" class="logo-img" onclick="rock()">
+                    <img src="assets/paper-logo.png" class="logo-img" onclick="paper()">
+                    <img src="assets/scissors-logo.png" class="logo-img" onclick="scissor()">
+                </div>
+            </div>
+            <div>
+                <img src="assets/vs.png" class="vs-img">
+            </div>
+            <div class="comp-box">
+                <h2>Comp</h2>
+                <div class="comp-img">
+                    <img src="assets/bg.png" alt="" id="comp-img">
+                </div>
+            </div>
+        </div>
+        <h1 id="winMsg" class="win-msg"></h1>
+        <div class="center">
+            <button id="againBtn" class="again-btn">Play Again</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

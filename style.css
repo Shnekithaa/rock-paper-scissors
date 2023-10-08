@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-main-container{
+    background-image: url("assets/bg.png");
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+.main-heading{
+    color: rgb(90, 37, 192);
+    font-size: 50px;
+}
+
+.main-img{
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+}
+.main-btm{
+    margin-left: 550px;
+}
+.main-btn{
+    background-color: transparent;
+    color: white;
+    border-width: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.play-btn{
+    font-size: 21px;
+    margin-right: 8px;
+}
+.play-anchor{
+    text-decoration: none;
+    color: white;
+}
